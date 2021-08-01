@@ -1,4 +1,13 @@
 export default {
+  // Build Configuration: https://go.nuxtjs.dev/config-build
+  build: {
+    loaders: {
+      vue: {
+        compiler: require('vue-template-babel-compiler')
+      }
+    },
+  },
+
   // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
   ssr: false,
 
@@ -40,8 +49,4 @@ export default {
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
   ],
-
-  // Build Configuration: https://go.nuxtjs.dev/config-build
-  build: {
-  }
 }
