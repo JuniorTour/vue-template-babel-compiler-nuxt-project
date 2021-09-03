@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
+    "debugDev": " node --inspect-brk ./node_modules/nuxt/bin/nuxt.js --runInBand",
     "dev": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
@@ -13,6 +14,6 @@
     "nuxt": "^2.15.7"
   },
   "devDependencies": {
-    "vue-template-babel-compiler": "^1.0.0"
+    "vue-template-babel-compiler": "^1.0.3"
   }
 }
