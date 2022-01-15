@@ -3,6 +3,20 @@ export default {
   build: {
     loaders: {
       vue: {
+        compilerOptions: {
+          babelOptions: {
+            // filename: 'newFilename',
+            // newProp: true,
+            assumptions: {
+              iterableIsArray: true,
+              arrayLikeIsIterable: false,
+              // additional: 'additional'
+            },
+            // plugins: [
+            //   'newPlugin'
+            // ]
+          },
+        },
         compiler: require('vue-template-babel-compiler')
       }
     },

@@ -21,6 +21,6 @@
     "babel-jest": "^26.6.3",
     "jest": "^26.6.3",
     "vue-jest": "4.0.1",
-    "vue-template-babel-compiler": "^1.0.3"
+    "vue-template-babel-compiler": "^1.0.9-beta-0"
   }
 }
